@@ -3,6 +3,7 @@ const asyncHandler = require("./middlewares/asyncHandler");
 const errorHandler = require("./middlewares/ErrorHandler");
 const connectDB = require("./config/db");
 const dotenv = require("dotenv").config({ path: "./.env" });
+const path = require("path");
 const cors = require("cors");
 const port = process.env.PORT;
 
